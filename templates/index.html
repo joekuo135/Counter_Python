@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" text="text/css" href="{{ url_for('static', filename='css/style_counter.css') }}">
+    <title>Counter</title>
+</head>
+<body>
+    <div class="container">
+        <h1> Counter</h1>
+        <p> This page has been visited:<span class="notBlack"> {{count}} </span> times</p>
+        <form action='/addtwo' >
+            <input id="plustwo" type="submit" name="" value="+2">
+        </form>
+        <form action='/reset'>
+            <input id='resetbtn' type="submit" name="" value="reset">
+        </form>
+    </div>
+</body>
+</html>
