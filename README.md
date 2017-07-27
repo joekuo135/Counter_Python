@@ -1,9 +1,10 @@
 # Counter_Python
-<p>Step1:</p>
-<p>Build a flask application that counts the number of times the root route ('/') has been viewed.</p>
+Step1:<br>
+Build a flask application that counts the number of times the root route ('/') has been viewed.<br>
 
-Step2:
-<p>Add a +2 button underneath the counter that reloads the page and increments counter by 2.</p>
+Step2:<br>
+Add a +2 button underneath the counter that reloads the page and increments counter by 2.<br>
 
-Step3:
-<p>Add a reset button that resets the counter back to 1.</p>
+Step3:<br>
+Add a reset button that resets the counter back to 1.<br>
+![](static/images/countermockup.png)
